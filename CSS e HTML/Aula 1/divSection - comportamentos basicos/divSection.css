@@ -1,0 +1,23 @@
+#linha{
+display: flex;
+flex-direction: row;
+}
+
+.coluna{
+height: 50vh;
+width: 33.33%;
+}
+
+.preto{
+background-color: black;
+}
+.amarelo{
+    background-color: yellow;
+}
+.coluninha{
+    height: 50%;
+    width: 50%;
+}
+.vermelho{
+    background-color: red;
+}

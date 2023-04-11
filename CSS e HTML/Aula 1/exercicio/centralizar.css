@@ -1,0 +1,26 @@
+#linha {
+    display: flex;
+    height: 50vh;
+}
+
+.quadrado {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadradinho {
+    display: flex;
+    background-color: white;
+    height: 50%;
+    width: 50%;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarelo {
+    background-color: yellow;
+}
