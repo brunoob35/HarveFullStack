@@ -3,7 +3,7 @@ section{
 
 }
 
-#botton {
+#bottom {
     display: flex;
     justify-content: space-between;
 }
@@ -15,7 +15,7 @@ section{
 }
 
 .paragrafo {
-    padding: 10px 0;
+    padding-left: 10px;
     width: 30%;
 
 }

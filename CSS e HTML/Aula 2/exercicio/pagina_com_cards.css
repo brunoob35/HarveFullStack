@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 0;
+
+}
+.claro{
+    background-color: azure;
+}
+.medio{
+    background-color: aqua;
+}
+
+.col-50{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.col-33{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+#foto {
+    width: 200px;
+}
+
+.card{
+    background-color: rgb(80, 166, 227);
+    height: 500px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: blueviolet;
+}
