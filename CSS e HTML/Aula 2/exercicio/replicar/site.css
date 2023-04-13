@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    height: 75vh;
+    background-image: url("https://bytechdev.com.br/assets/img/programacao-desenvolvedor.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
