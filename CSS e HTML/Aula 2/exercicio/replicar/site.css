@@ -1,12 +1,63 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: gray;
+}
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
+#container-fluid{
+    width: 100%;
+}
+
+/*Header menu*/
 header {
     height: 75vh;
     background-image: url("https://bytechdev.com.br/assets/img/programacao-desenvolvedor.jpg");
-    background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0px;
+    display: block;
+}
+
+ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu{
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.col-50{
+    width: 50%;
+}
+.item{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    transition: 0.3s;
+    font-weight: bold;
 }
