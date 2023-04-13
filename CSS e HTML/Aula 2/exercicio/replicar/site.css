@@ -58,6 +58,41 @@ ul {
     color: white;
     text-decoration: none;
     font-size: 1.4em;
-    transition: 0.3s;
+    transition: color 0.3s linear;
     font-weight: bold;
+}
+.item:hover{
+    color: #00acfe;
+}
+
+/* Parte de Orçamento */
+.claro{
+    background-color: #00acfe;
+    padding: 20px 0 20px 0;
+}
+
+.orcamento{
+    text-align: center;
+}
+.titulo{
+    color: #001e27;
+    font-size: 2.5em;
+    padding: 15px 0 20px 0;
+}
+.btnFale{
+    background-color: #001e27;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.btn{
+    width: 250px;
+    font-size: 25px;
+    padding: 10px 0 10px 0;
+    transition: background-color 0.1s linear;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #04111a;
+
 }
