@@ -1,0 +1,18 @@
+.btn{
+    background-color: red;
+    color: white;
+    height: 10vh;
+    width: 10vw;
+    transition: 1s;
+    
+}
+
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}

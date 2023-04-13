@@ -13,6 +13,13 @@
         width: 50%;
         height: 100%;
         border: 10px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        background-image: url(https://nova-escola-producao.s3.amazonaws.com/YVwdYKeDYC8fSVGKX9fs8mzac8aRM67TaX5aqdj8bM4p4jd4Zd82KtnJ2saD/professora-sala-aula.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
     }
 
     .btn{
