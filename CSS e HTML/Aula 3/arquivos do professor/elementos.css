@@ -1,0 +1,44 @@
+
+.container{
+    width: 100%;
+    height: 100% ;
+}
+
+.borda{
+    width: 50%;
+    height: 80%;
+    border: 10px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: url("https://nova-escola-producao.s3.amazonaws.com/YVwdYKeDYC8fSVGKX9fs8mzac8aRM67TaX5aqdj8bM4p4jd4Zd82KtnJ2saD/professora-sala-aula.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:10px;
+}
+
+ul{
+    list-style: none;
+}
+#textoComBorda{
+    border: 1px solid black;
+}
+/* .btn{
+    width: 200px;
+    height: 40px;
+    border:none;
+    background-color:black;
+    color:white;
+    box-shadow: 5px 5px 25px gray;
+} */
+
+.btn{
+    background-color: red;
+}

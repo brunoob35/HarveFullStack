@@ -1,0 +1,30 @@
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    background-color: red;
+    border-color: red;
+    color:white;
+    transition:0.3s;
+}
+.btn:hover{
+    background-color: blue;
+    border-color:blue;
+    width: 220px;
+    rotate:45deg;
+    cursor:pointer;
+}
+p{
+    font-size: 26px;
+    color:grey;
+    transition:1s;
+
+}
+div >p:hover{
+    transform: rotate(360deg);
+    /* rotate:360deg; */
+}
+.teste{
+    width: 100px;
+    height: 100px;
+}
