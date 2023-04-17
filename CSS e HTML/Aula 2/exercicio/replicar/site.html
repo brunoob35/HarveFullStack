@@ -1,102 +1,231 @@
 <!-- replicar o site Bytechdev.com.br -->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bytech Desenvolvimento</title>
-    <link rel="stylesheet" href="site.css">
-</head>
+    <link rel="stylesheet" href="site.css" />
+  </head>
 
-<body>
-
+  <body id="inicio">
     <!-- menu e cabecalho -->
     <header class="container-fluid">
-
-        <nav id="menu" class="container row">
-            <div class="logo">
-                <img src="https://bytechdev.com.br/assets/img/logo.svg" alt="Logo Bytech">
-            </div>
-            <div class="col-50">
-                <ul class="menu">
-                    <li>
-                        <a class="item" href="#sobre">SOBRE</a>
-                    </li>
-                    <li>
-                        <a class="item" href="#servicos">SERVIÇOS</a>
-                    </li>
-                    <li>
-                        <a class="item" href="#contato">CONTATO</a>
-                    </li>
-                </ul>
-
-            </div>
-
-        </nav>
-
+      <nav id="menu" class="container row">
+        <div class="logo">
+          <img
+            src="https://bytechdev.com.br/assets/img/logo.svg"
+            alt="Logo Bytech"
+          />
+        </div>
+        <div class="col-50">
+          <ul class="menu">
+            <li>
+              <a class="item" href="#sobre">SOBRE</a>
+            </li>
+            <li>
+              <a class="item" href="#servicos">SERVIÇOS</a>
+            </li>
+            <li>
+              <a class="item" href="#contato">CONTATO</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main class="container-fluid">
-        <!-- servicos -->
-        <section class="back claro">
-            <div class="container orcamento">
-                <h2 class="titulo">SOLICITE UM ORÇAMENTO JÁ!</h2>
-                <button class="btn btnFale">Fale Conosco</button>
+      <!-- orcamento -->
+      <section class="back claro">
+        <div class="container orcamento">
+          <h2 class="titulo">SOLICITE UM ORÇAMENTO JÁ!</h2>
+          <button class="btn btnFale">Fale Conosco</button>
+        </div>
+      </section>
 
+      <!-- servicos -->
+      <section class="container-fluid servicos" id="servicos">
+        <div class="container cards">
+          <h1 class="titulo">SERVIÇOS</h1>
+
+          <!-- cards -->
+          <div class="row cards">
+            <!-- card claro 1 -->
+            <div class="card claro">
+              <div class="container">
+                <div class="card-top">
+                  <img
+                    class="imgCard"
+                    src="https://bytechdev.com.br/assets/img/SOFTWARE_WEB_WHITE1.svg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="card-body card-body-claro">
+                  <h3 class="subtitulo2">DESENVOLVIMENTO DE</h3>
+                  <h2 class="subtitulo">SOFTWARE | WEB</h2>
+                  <p>
+                    Transforme a sua empresa com soluções digitais
+                    personalizadas. Desenvolvemos softwares e sites sob medida
+                    para atender às necessidades do seu negócio, nesse ramo
+                    trabalhamos desde a criação de paginas de venda e sites, até
+                    com a criação e venda de algumas soluções para sua empresa
+                    como: ERP, CRM, rota de produção e outros.
+                  </p>
+                </div>
+              </div>
             </div>
-        </section>
 
+            <!-- card escuro 1 -->
+            <div class="card escuro">
+              <div class="container">
+                <div class="card-top">
+                  <img
+                    class="imgCard"
+                    src="https://bytechdev.com.br/assets/img/MOBILE_WHITE.svg"
+                    alt=""
+                  />
+                </div>
 
-        <section class="container-fluid servicos" id="servicos">
-            <div class="container">
-                <h1 class="titulo">SERVIÇOS</h1>
+                <div class="card-body">
+                  <h3 class="subtitulo2">DESENVOLVIMENTO DE APP</h3>
+                  <h2 class="subtitulo">ANDROID | IOS</h2>
+                  <p>
+                    Promova uma experiência focada em android e/ou IOS. Conte
+                    com nosso time de desenvolvimento e Crie seu APP, TOTEM de
+                    atendimento ou uma aplicação local pensando em otimizar e
+                    facilitar a experiência do usuário.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-                <!-- cards -->
-                <div class="row cards">
-                    <div class="card claro">
-                        <div class="card top"></div>
-                        <div class="card-body card-body-claro">
-                            <h3 class="subtitulo2">DESENVOLVIMENTO DE</h3>
-                            <h2 class="subtitulo">SOFTWARE | WEB</h2>
-                            <p>Transforme a sua empresa com soluções digitais personalizadas. Desenvolvemos softwares e sites sob medida para atender às necessidades do seu negócio, nesse ramo trabalhamos desde a criação de paginas de venda e sites, até com a criação e venda de algumas soluções para sua empresa como: ERP, CRM, rota de produção e outros.</p>
-                        </div>
-                    </div>
-                    <div class="card escuro">
-                        <div class="card ESCURO">
-                            <div class="card top"></div>
-                            <div class="card-body card-body-escuro">
-                                <h3 class="subtitulo2">DESENVOLVIMENTO DE APP</h3>
-                                <h2 class="subtitulo">ANDROID | IOS</h2>
-                                <p>Promova uma experiência focada em android e/ou IOS. Conte com nosso time de desenvolvimento e Crie seu APP, TOTEM de atendimento ou uma aplicação local pensando em otimizar e facilitar a experiência do usuário.</p>
-                            </div>
-                        </div>
-                        <div class="card claro">
-                            <div class="card top"></div>
-                            <div class="card-body card-body-claro">
-                                <h3 class="subtitulo2">NOSSOS</h3>
-                                <h2 class="subtitulo">SISTEMAS | WEB</h2>
-                                <p>Maximize a eficiência dos seus processos de produção com os sistemas integrados da Bytech! Com nosso software de autoatendimento, controle de estoque e controle de ordem de produção/serviço, você pode otimizar a gestão de suas operações e aumentar a produtividade da sua empresa. Nossos sistemas são projetados para trabalharem juntos e garantir a integração perfeita de suas operações, proporcionando maior controle e visibilidade em cada etapa do processo.</p>
-                            </div>
-                        </div>
-                        <div class="card escuro">
-                            <div class="card ESCURO">
-                                <div class="card top"></div>
-                                <div class="card-body card-body-escuro">
-                                    <h2 class="subtitulo3">MANUTENÇÃO E</h2>
-                                    <h2 class="subtitulo3">SUPORTE</h2>
-                                    <p>Além de criar sistemas inovadores, oferecemos suporte e manutenção contínuos para garantir que seus projetos funcionem perfeitamente. Nossa equipe técnica altamente qualificada é capaz de fornecer suporte para uma ampla gama de soluções digitais, incluindo sites e landing pages. Quando você escolhe a Bytech, pode ter certeza de que seus projetos estão em boas mãos.</p>
-                                </div>
-                            </div>
+            <!-- card claro 2 -->
+            <div class="card claro">
+              <div class="container">
+                <div class="card-top">
+                  <img
+                    class="imgCard"
+                    src="https://bytechdev.com.br/assets/img/SISTEMAS_WHITE.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body card-body-claro">
+                  <h3 class="subtitulo2">NOSSOS</h3>
+                  <h2 class="subtitulo">SISTEMAS | WEB</h2>
+                  <p>
+                    Maximize a eficiência dos seus processos de produção com os
+                    sistemas integrados da Bytech! Com nosso software de
+                    autoatendimento, controle de estoque e controle de ordem de
+                    produção/serviço, você pode otimizar a gestão de suas
+                    operações e aumentar a produtividade da sua empresa. Nossos
+                    sistemas são projetados para trabalharem juntos e garantir a
+                    integração perfeita de suas operações, proporcionando maior
+                    controle e visibilidade em cada etapa do processo.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-                        </div>
-                    </div>
+            <!-- card escuro 2 -->
+            <div class="card escuro">
+              <div class="container">
+                <div class="card-top">
+                  <img
+                    class="imgCard"
+                    src="https://bytechdev.com.br/assets/img/SUPORTE_WHITE.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="card-body">
+                  <h2 class="subtitulo3">MANUTENÇÃO E</h2>
+                  <h2 class="subtitulo3">SUPORTE</h2>
+                  <p>
+                    Além de criar sistemas inovadores, oferecemos suporte e
+                    manutenção contínuos para garantir que seus projetos
+                    funcionem perfeitamente. Nossa equipe técnica altamente
+                    qualificada é capaz de fornecer suporte para uma ampla gama
+                    de soluções digitais, incluindo sites e landing pages.
+                    Quando você escolhe a Bytech, pode ter certeza de que seus
+                    projetos estão em boas mãos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <!-- sobre nos -->
+      <section class="container-fluid escuro row" id="sobre">
+        <div class="container row">
+          <div class="col-50 sobre">
+            <h1 class="titulo">SOBRE NÓS</h1>
+            <p>
+              A Bytech é especializada em desenvolvimento de software
+              personalizado, capaz de criar soluções para todo tipo de projeto
+              desde sites, landding pages até sistemas de Linha de produção, PDV
+              e ERP. Nossa equipe trabalha em parceria com nossos clientes para
+              fornecer soluções personalizadas que atendam às necessidades
+              exclusivas de cada negócio. Com experência em linha de produção,
+              varejo e Marketing, a Bytech é a escolha ideal para aqueles que
+              procuram soluções de software personalizadas de alta qualidade.
+              Entre em contato conosco hoje mesmo para saber mais sobre como
+              podemos ajudar a sua empresa a crescer e facilitar todos os seus
+              processos.
+            </p>
+          </div>
+          <div class="col-50 imgsobre">
+            <img
+              class=""
+              src="https://bytechdev.com.br/assets/img/servicos.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
 
+      <section class="contato claro">
+        <div class="container-menos row" id="contato">
+            <div class="col-30 projeto container">
+                <h1 class="titulo">VAMOS FALAR SOBRE SEU PROJETO?</h1>
+                <div class="espaco"></div>
+                <h2>ByTech - Desenvolvimento de software</h2>
+                <p>(41) 00000-0000</p>
+                <strong>
+                    <p>comercial@bytechdev.com.br</p>
+                </strong>
+                <div class="social">
+                    <!-- inserir social medias -->
+                    <a href="https://bytechdev.com.br"><img class="imgSocial" src="https://bytechdev.com.br/assets/img/linkedin.svg" alt="Facebook"></a>
+                        <a target="_blank" href="https://www.instagram.com/bytechdev/?igshid=ODM2MWFjZDg%3D"><img class="imgSocial" src="https://bytechdev.com.br/assets/img/instagram.svg" alt="Instagram"></a>
+                        <a target="_blank" href="https://api.whatsapp.com/send?phone=554196800423&text=Ol%C3%A1%20vim%20pelo%20Site%20da%20Bytech,%20gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7os%20de%20voc%C3%AAs!"><img class="imgSocial" src="https://bytechdev.com.br/assets/img/whatsapp.svg" alt="Whatsapp"></a>
+                </div>
+            </div>
+
+            <div class="col-50 form">
+                <div class="loader"></div>
+                <form id="email" method="POST">
+                    <input class="inp contact-form" type="text" name="nome" type="text" placeholder="Nome" required>
+                    <input class="inp contact-form" type="email" name="email" placeholder="Email" required>
+                    <input id="telefone" class="inp contact-form" type="text" name="telefone" placeholder="Telefone" minlength="14" maxlength="15" required>
+                    <textarea class="inp contact-form" type="text" name="mensagem" placeholder="Mensagem" maxlength="300"></textarea>
+                    <input class="btn-enviar" type="submit">
+            </div>
+        </div>
+      </section>
     </main>
 
-</body>
+    <footer class="container-fluid">
+        <img class="logoFooter" src="https://bytechdev.com.br/assets/img/logoWhite.svg" alt="">
+        <a  class="scroll-to-top" href="#inicio">
+            <i class="fas fa-arrow-up">^</i>
+        </a>
 
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=554196800423&amp;text=Ol%C3%A1%20vim%20pelo%20Site%20da%20Bytech,%20gostaria%20de%20saber%20mais%20sobre%20o%20servi%C3%A7os%20de%20voc%C3%AAs!" class="whatsapp"><i class="fas fa-arrow-up"><img class="whatsapp move paused" src="https://bytechdev.com.br/assets/img/whatsapp.svg" alt="Whatsapp cor"></i></a>
+
+    </footer>
+
+  </body>
 </html>

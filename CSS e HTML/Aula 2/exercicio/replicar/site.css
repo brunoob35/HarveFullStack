@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
 
-#container-fluid{
+#container-fluid {
     width: 100%;
 }
 
@@ -29,75 +30,285 @@ ul {
     align-items: center;
 }
 
-#menu{
+#menu {
     justify-content: center;
     padding-top: 10px;
 }
 
-.row{
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.container{
+.container {
     width: 90%;
     margin: auto;
 }
 
 
-.menu{
+.menu {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-.logo{
+
+.logo {
     width: 35%
 }
-.col-50{
+
+.col-50 {
     width: 50%;
 }
-.item{
+
+.item {
     color: white;
     text-decoration: none;
     font-size: 1.4em;
     transition: color 0.3s linear;
     font-weight: bold;
 }
-.item:hover{
+
+.item:hover {
     color: #00acfe;
 }
 
 /* Parte de Orçamento */
-.claro{
+.claro {
     background-color: #00acfe;
     padding: 20px 0 20px 0;
 }
 
-.orcamento{
+.orcamento {
     text-align: center;
 }
-.titulo{
+
+.titulo {
     color: #001e27;
     font-size: 2.5em;
     padding: 15px 0 20px 0;
 }
-.btnFale{
+
+.btnFale {
     background-color: #001e27;
     color: white;
     border: none;
     border-radius: 15px;
 }
-.btn{
+
+.btn {
     width: 250px;
     font-size: 25px;
     padding: 10px 0 10px 0;
     transition: background-color 0.1s linear;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
     background-color: #04111a;
 
 }
 
 /* Secao de servicos */
+#servicos {
+    text-align: center;
+    padding: 25px 0 35px 0;
+    background-image: url(https://bytechdev.com.br/assets/img/programacao-desenvolvedor-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 2.5em;
+    padding: 15px 0 20px 0;
+
+}
+
+.cards {
+    justify-content: space-around;
+}
+
+.card {
+    height: 540px;
+    width: 23%;
+    border-radius: 25px;
+    opacity: 0.9;
+    color: white;
+}
+
+.escuro {
+    background-color: #001e27;
+    padding: 20px 0 20px 0;
+}
+
+.imgCard {
+    width: 150px;
+}
+
+.card-top {
+    padding-top: 20px;
+}
+
+.card-body-claro {
+    color: #001e27;
+    font-weight: bold;
+    font-size: 15.5px;
+}
+
+/* sobre nos */
+.sobre>p {
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+}
+
+.sobre>.titulo {
+    text-align: left;
+    padding: 0;
+}
+
+.imgsobre {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+}
+
+.imgsobre>img {
+    width: 90%;
+}
+
+/* contato */
+.container-menos {
+    width: 70%;
+    margin: auto;
+}
+
+/* lado esquerdo */
+.col-30 {
+    width: 30%;
+}
+
+
+.projeto {
+    text-align: left;
+    padding: 25px 0 25px 0;
+}
+
+.projeto>.titulo {
+    color: black;
+    font-size: 2.2em;
+}
+
+.espaco {
+    height: 3px;
+    width: 300px;
+    background-color: #001e27;
+}
+
+.social {
+    display: flex;
+    padding: 25px 0 25px 0;
+    justify-content: space-around;
+}
+
+.imgSocial {
+    width: 30px;
+}
+
+/* lado direito */
+.form {
+    padding: 25px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: none;
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+.inp {
+
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 0 20px 0;
+    text-indent: 35px;
+    font-size: 17px;
+    border: solid 1px grey;
+
+}
+
+.btn-enviar {
+    width: 25%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #001e27;
+    transition: 0.3s;
+
+}
+
+.btn-enviar:hover {
+    cursor: pointer;
+    background-color: #04111a;
+}
+
+/* rodape */
+footer{
+    height: 100px;
+    background-color: #001e27;
+    text-align: center;
+}
+
+.logoFooter{
+    width: 250px;
+    padding: 17px 0 0 0 ;
+}
+
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    opacity: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+
+    animation: treme 0.5s infinite alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+
+}
+  
+  @keyframes treme {
+    0% {margin-left: 0;}
+    25% {margin-left: 5px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -5px;}
+    100% {margin-left: 0;}
+  }
