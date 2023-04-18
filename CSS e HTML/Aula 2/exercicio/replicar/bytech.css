@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-#container-fluid {
+.container-fluid {
     width: 100%;
 }
 
@@ -312,3 +312,53 @@ footer{
     75% {margin-left: -5px;}
     100% {margin-left: 0;}
   }
+
+  @media only screen and (max-width: 767px) {
+    /* Adicione aqui os estilos que deseja aplicar para dispositivos móveis */
+    .card{
+        width: 48%;
+        margin-bottom:30px;
+    }
+    .item{
+        padding: 20px 0 20px 0;
+    }
+  }
+  
+  /* Estilos para tablets (de 481px a 768px) */
+  @media only screen and (min-width: 767px) and (max-width: 1279px) {
+    /* Adicione aqui os estilos que deseja aplicar para tablets */
+    .card{
+        width: 100%;
+        margin-bottom:30px;
+    }
+    .col-30{
+        width: 100%;
+    }
+    .col-50{
+        width: 100%;
+        margin-bottom:30px;
+    }
+    .col-30{
+        width: 100%;
+    }
+    .menuCenter{
+        text-align: center;
+    }
+    .titulo{
+       font-size:2.2em;
+    }
+    .form, .projeto{
+        padding:0;
+    }
+    .item{
+        padding: 20px 0 20px 0;
+    }
+   
+  
+  /* Estilos para desktops (acima de 768px) */
+  @media only screen and (min-width: 769px) {
+    /* Adicione aqui os estilos que deseja aplicar para desktops */
+    
+  }  
+
+}
