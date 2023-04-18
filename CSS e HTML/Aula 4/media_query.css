@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    width: 30%;
+    height: 600px;
+    flex-direction: column;
+    background-color: aqua;
+    text-align: center;
+}
+
+.card > img {
+    width: 90%;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 800px){
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}
