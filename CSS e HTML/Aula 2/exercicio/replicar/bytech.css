@@ -338,12 +338,6 @@ footer{
         width: 100%;
         margin-bottom:30px;
     }
-    .col-30{
-        width: 100%;
-    }
-    .menuCenter{
-        text-align: center;
-    }
     .titulo{
        font-size:2.2em;
     }
@@ -358,7 +352,7 @@ footer{
   /* Estilos para desktops (acima de 768px) */
   @media only screen and (min-width: 769px) {
     /* Adicione aqui os estilos que deseja aplicar para desktops */
-    
+    /* mudanças nao foram necessarias uma vez que o site foi feito para desktop primeiro */
   }  
 
 }

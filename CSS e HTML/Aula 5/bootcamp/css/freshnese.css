@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    height: 178px;
+}
+.header-container{
+    width: 90%;
+    margin: auto;
+}
+
+.logo{
+    justify-content: left;
+    width: 20%;
+    
+}
+
+.barra{
+    width: 40%;
+    height: 42px;
+    padding-left: 15px;
+    background-color: #D1D1D1;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.dropdown{
+    width: 25%;
+    border: 0;
+    outline: none;
+    background-color: #D1D1D1;
+}
+.search-bar{
+    border: 0;
+    outline: none;
+    background-color: #D1D1D1;
+}
+.search-btn{
+    outline: none;
+    justify-content: flex-end;
+    border: none;
+    background-color: transparent;
+}
+
+.lupa{
+    height: 10px;
+}
