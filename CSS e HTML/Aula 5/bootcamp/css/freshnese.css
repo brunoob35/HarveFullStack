@@ -1,18 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-fluid {
     width: 100%;
 }
 
-.row {
+.flex {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+/* Header */
 header{
     height: 178px;
 }
@@ -27,33 +34,73 @@ header{
     
 }
 
-.barra{
+.barra-pesquisa{
     width: 40%;
-    height: 42px;
-    padding-left: 15px;
-    background-color: #D1D1D1;
+    padding: 15px;
+    background-color: #F9F9F9;
     border-radius: 12px;
     margin: auto;
+    align-items: center;
+    border: #D1D1D1;
+    border-radius: 2;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dropdown{
     width: 25%;
     border: 0;
     outline: none;
-    background-color: #D1D1D1;
+    background-color: #F9F9F9;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .search-bar{
     border: 0;
     outline: none;
-    background-color: #D1D1D1;
+    background-color: #F9F9F9;
+    margin-left: 20px;
 }
 .search-btn{
-    outline: none;
     justify-content: flex-end;
-    border: none;
     background-color: transparent;
+    margin-left: auto;
 }
 
 .lupa{
     height: 10px;
+    transform: scaleX(-1);
+}
+
+.linha-vertical {
+    height: 15px;
+    border-right: 1px solid #D1D1D1;
+}
+
+.icones{
+    width: 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icone{
+    height: 20px;
+}
+
+/* Menu de navegacao */
+nav{
+    height: 55px;
+    background-color: #F9F9F9;
+}
+
+.menu{
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.item{
+    text-decoration: none;
+    color: black;
+
 }

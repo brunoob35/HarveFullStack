@@ -1,45 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Freshnese.com</title>
-    <link rel="stylesheet" href="css/freshnese.css">
-</head>
+    <link rel="stylesheet" href="css/freshnese.css" />
+  </head>
 
-<body>
-    <header class="container-fluid row">
+  <body>
+    <header class="container-fluid flex">
+      <div class="header-container flex">
+        <!-- Logo -->
+        <img
+          class="logo"
+          src="assets/image1.png"
+          alt="Logo com o nome Fresnese.com"
+        />
 
-        <div class="header-container row">
+        <!-- Search bar -->
+        <div class="barra-pesquisa flex">
+          <select class="dropdown">
+            <option value="">All categories</option>
+            <option value="opcao1">Bakery</option>
+            <option value="opcao2">Frit and Vegetables</option>
+            <option value="opcao3">Meat and Fish</option>
+          </select>
 
-            <img class="logo" src="assets/image1.png" alt="Logo com o nome Fresnese.com">
+          <div class="linha-vertical"></div>
 
-            <!-- Search bar -->
-            <div class="barra row">
+          <input
+            class="search-bar"
+            type="Search products, categories"
+            placeholder="Search products, categories..."
+          />
 
-                <select class="dropdown">
-                    <option value="">All categories</option>
-                    <option value="opcao1">Fruits</option>
-                    <option value="opcao2">Vegetables</option>
-                    <option value="opcao3">Kitchen Appliances</option>
-                </select>
-
-                <input class="search-bar" type="Search products, categories" placeholder="Search products, categories">
-
-
-                <button class="search-btn">
-                    <img class="lupa" src="assets/search-icon.webp" alt="">
-                </button>
-            </div>
+          <a class="search-btn">
+            <img class="lupa" src="assets/search-icon.webp" alt="" />
+          </a>
         </div>
 
+        <div class="icones flex">
+            <a href="">
+                <img class="icone" src="assets/img_88236.png" alt="">
+            </a>
+
+            <a href="">
+                <img class="icone" src="assets/174215.png" alt="">
+            </a>
+
+        </div>
+      </div>
     </header>
 
+    <nav class="container-fluid flex">
+        <ul class="menu flex">
+            <li>
+                <a class="item" href="">Bakery</a>
+            </li>
+            <li>
+                <a class="item" href="">Fruit and vegetables</a>
+            </li>
+            <li>
+                <a class="item" href="">Meat and fish</a>
+            </li>
+            <li>
+                <a class="item" href="">Drinks</a>
+            </li>
+            <li>
+                <a class="item" href="">Kitchen</a>
+            </li>
+            <li>
+                <a class="item" href="">Special nutrition</a>
+            </li>
+            <li>
+                <a class="item" href="">Baby</a>
+            </li>
+            <li>
+                <a class="item" href="">Pharmacy</a>
+            </li>
+          </ul>
+    </nav>
+
+    <section class="container-fluid flex">
+
+        <div>
 
 
+        </div>
 
-</body>
 
+        
+        
+    </section>
+
+
+  </body>
 </html>
