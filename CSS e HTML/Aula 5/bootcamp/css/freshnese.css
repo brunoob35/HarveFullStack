@@ -104,3 +104,24 @@ nav{
     color: black;
 
 }
+
+/* div com banner */
+
+.banners{
+    width: 100%;
+}
+
+.container-banner{
+    width: 30%;
+    height: fit-content;
+    background-image: url("../assets/image2.png");
+    border-radius: 20px;
+}
+
+.categorias{
+    align-items: flex-start;
+}
+
+.categories{
+    color: #6A983C;
+}
